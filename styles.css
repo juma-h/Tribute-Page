@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+html {
+    font-size: 20px;
+}
+
+body {
+    font-size: 1em;
+    line-height: 2.0;
+    color: #333;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
+}
+
+#main {
+    padding: 15px;
+    border-radius: 5px;
+}
+
+@media (max-width: 460px) {
+    #main {
+        margin: 0;
+    }
+}
+
+#title {
+    text-align: center;
+    font-size: 3rem;
+}
+
+#ptitle,
+#img-caption {
+    text-align: center;
+    font-style: italic;
+}
+
+#image {
+    width: 100%;
+    height: auto;
+    max-width: 625px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#img-caption {
+    text-align: center;
+}
+
+@media (max-width: 460px) {
+    #img-caption {
+        font-size: 1.4rem;
+    }
+}
+
+blockquote {
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+}
